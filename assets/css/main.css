@@ -16297,6 +16297,10 @@
   background-color: #fff;
 }
 
+footer.govuk-width-container {
+  width: 1020px;
+}
+
 .nidirect-footer {
   background-color: var(--govuk-surface-background-colour, #f4f8fb);
   height: auto;
@@ -16341,6 +16345,10 @@
     line-height: 1.2;
   }
 }
+.nidirect-footer {
+  font-size: 19px;
+  text-underline-offset: 0.3rem;
+}
 
 .nidirect-footer__list {
   list-style: none;
@@ -16368,6 +16376,9 @@
   margin-right: 0;
   border-right-width: 0;
   border-right-style: none;
+}
+.nidirect-footer__list a {
+  text-underline-offset: 0.3rem;
 }
 
 .nidirect-header {
