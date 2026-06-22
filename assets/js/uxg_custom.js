@@ -36,7 +36,7 @@
         }
         
         if (content.trim()) {
-          codeText += content + '\n';
+          codeText += content.trimEnd() + '\n';
         }
       });
     } else {
